@@ -52,7 +52,7 @@ Vue.component("app-third-task", {
   </template>
 </section>`,
   data() {
-    return { error: true };
+    return { error: false };
   },
   computed: mapState(["offers", "offerCount"]),
   mounted() {
